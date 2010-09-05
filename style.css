@@ -1,0 +1,110 @@
+body{ 
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+  font-size: 11px;
+}
+#mid{
+  margin-bottom:15px;
+}
+#badge{
+ height:50px;
+ padding:15px 15px 15px 5px; 
+}
+#badge #name{
+  font-weight:bold;      
+}
+#main{
+  float:left;
+  width:500px;
+}
+
+#main textarea, #main .full{
+  width:100%;
+}
+#emoji{
+  overflow:hidden;
+  width:100%;      
+}
+#emoji img{
+  cursor:pointer;
+}
+#emoji img:hover{
+  cursor:hand;
+  background:#cecece;
+}
+
+#preview_pane{
+  background:#c3c3c3;    
+  padding:5px;
+  margin: 0 0 5px 0;
+  float: right;
+  width: 55%;
+}
+#preview{
+  background:#f0f0f0;
+  min-height:50px;
+  border: 2px #ccc solid;
+  padding:5px;
+}
+#footer{
+  background:#eee;
+  padding:15px;
+  clear:both;
+  margin-top:15px;
+}
+.statusTextArea {
+    width: 300px;
+    display:block;
+}
+#statuscode {
+    display:none;
+}
+.post_btn {
+    margin-bottom: 3px;
+}
+
+.facade_btn{
+
+background-color: #3b5998;
+border: 2px solid #627aad;
+padding: 2px 4px;
+text-decoration: none;
+color: #ffffff;
+}
+
+#ajaxbtn {
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#ajaxbtn:active {
+    background-color: #3b59ff;
+}
+
+#preview_p {
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+#preview_p span {
+    word-wrap: break-word;
+}
+#preview_p img{
+    width: 15px;
+    height: 15px;
+}
+
+.loading {
+    background: url('images/loading.gif') no-repeat;
+    padding-left: 20px;
+    margin-left:5px;
+    display: inline-block;
+    height: 20px
+}
+
+.f_hidden {
+    display:none;
+}
+.hide{
+    display:none;
+}
